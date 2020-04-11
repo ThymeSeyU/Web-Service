@@ -3,7 +3,9 @@ package com.example.webservice;
 import java.io.Serializable;
 
 public class DataItem implements Serializable {
-    String nama, nrp, hobby;
+    String nama;
+    String nrp;
+    String hobby;
     int umur;
 
     public DataItem(String nama, int umur, String nrp, String hobby) {
